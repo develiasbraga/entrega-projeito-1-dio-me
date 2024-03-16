@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML</title>
+</head>
+<body>
+    <h1>Seja bem-vindo aos Primeiros Passos com o HTML</h1>
+    <p>Este curso é o ponto de partida ideal para você que deseja ingressar no mundo da <strong><i><u><small>programação web</small></u></i></strong> e aprender a criar seus próprios sites e páginas web. Através de uma abordagem prática e passo a passo, você será guiado por uma jornada de aprendizado que te permitirá dominar as principais ferramentas e técnicas para construir websites incríveis.</p>
+    <hr>
+    <h1 id="inicio">Primeiros Passos com o HTML</h1>
+    <h2>Indíce</h2>
+    <ul>
+        <li><a href="#historia-dos-computadores">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</a></i>?</li>
+        <li><a href="#o-que-e-html">O que é <i><abbr title="Hyper Text Markup Language">HTML</abbr></i>?</a></li>
+        <li><a href="#estrutura-basica-html">Como é uma estrutura básica de um <abbr title="Hyper Text Markup Language">HTML</abbr>?</a></li>
+        <li><a href="#ordenadas-não-ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links-de-referencias">Links de referências</a></li>
+    </ul>
+    <h2 id="historia-dos-computadores">História dos Computadores</h2>
+    <small> <a href="#inicio">(Voltar)</a></small>
+    <p>A história dos computadores é fascinante e reflete o avanço da humanidade em tecnologia e ciência. Aqui está um resumo da evolução dos computadores desde o início até os dias atuais:</p>
+    <h3>Início da Computação:</h3>
+    <small> <a href="#inicio">(Voltar)</a></small>
+    <p><strong><u>Ábaco (século V a.C.):</u></strong> Considerado um dos primeiros dispositivos de cálculo.</p>
+    <p><strong><u>Régua de Cálculo (século XVII):</u></strong> Primeiro instrumento analógico para cálculos logarítmicos.</p>
+    <p><strong><u> Máquina de Pascal (1642):</u></strong> Primeira calculadora mecânica automática.</p>
+    <p><strong><u> Roda de Leibniz (século XVII):</u></strong> Introduziu o sistema de numeração binário.</p>
+    <h3>Século XIX:</h3>
+    <p><strong><u> Máquina Analítica de Babbage:</u></strong> Conceito de um computador com memória e programas.</p>
+    <p><strong><u> Tear de Jacquard:</u></strong> Uso de cartões perfurados para controlar padrões em tecidos.</p>
+    <h3>Século XX - As Gerações de Computadores:</h3>
+    <p><strong><u> Primeira Geração (1951-1959):</u></strong> Computadores com válvulas e cartões perfurados.</p>
+    <p><strong><u> Segunda Geração (1959-1965):</u></strong> Transistores substituem válvulas, computadores menores e mais rápidos.</p>
+    <p><strong><u> Terceira Geração (1965-1975):</u></strong> Circuitos integrados e miniaturização de componentes.</p>
+    <p><strong><u> Quarta Geração (1975-até os dias atuais):</u></strong> Microprocessadores, aumento da velocidade e capacidade de processamento, computadores pessoais.</p>
+    <h3>Evolução Recente:</h3>
+    <p><strong><u> ENIAC (1946):</u></strong> Primeiro computador digital eletrônico de grande escala.</p>
+    <p><strong><u> Computadores Pessoais:</u></strong> Tornaram-se comuns nas casas e escritórios.</p>
+    <p><strong><u> Internet:</u></strong> Revolucionou a forma como os computadores são usados para comunicação e informação.</p>
+    <p><strong><u> Dispositivos Móveis:</u></strong> Smartphones e tablets expandiram a computação para além do desktop.</p>
+    <p><strong><u> Cloud Computing:</u></strong> Armazenamento e processamento de dados em servidores remotos.</p>
+    <p><strong><u> Inteligência Artificial:</u></strong> Avanços significativos em aprendizado de máquina e automação.</p>
+    <p><strong><i>Os computadores continuam a evoluir, tornando-se cada vez mais integrados em todos os aspectos da vida cotidiana e impulsionando novas inovações em diversas áreas.</i></strong></p>
+    <h2 id="clients">O que são Clients?</h2>
+    <small> <a href="#inicio">(Voltar)</a></small>
+    <p><strong>Clients:</strong> refere-se aos navegadores e dispositivos dos usuários finais que acessam e interagem com as páginas web. O front-end é a parte da aplicação web que é executada no lado do cliente, ou seja, no navegador do usuário.</p>
+    <h2 id="servers">O que são Servers?</h2>
+    <small> <a href="#inicio">(Voltar)</a></small>
+    <p><strong>Servers:</strong> São sistemas de computadores que fornecem dados e serviços a outros computadores, chamados de <strong><i>"clients"</i></strong>, na rede. Eles são uma parte crucial da infraestrutura da internet e do desenvolvimento de aplicações web, pois armazenam, processam e entregam conteúdo web aos usuários finais.</p>
+    <h3>No desenvolvimento back-end, os servidores executam várias funções importantes, como:</h3>
+    <p><strong><u></u></strong></p>
+    <ul>
+        <li><strong><u>Hospedagem de Aplicações Web:</u></strong> Os servidores web hospedam os arquivos e bancos de dados necessários para que as aplicações web funcionem.</li>
+    </ul>
+    <ul>
+        <li><strong><u>Processamento de Requisições:</u></strong> Quando um usuário acessa um site, o servidor processa a solicitação, executa a lógica de negócios necessária e retorna os dados solicitados.</li>
+    </ul>
+    <ul>
+        <li><strong><u>Gerenciamento de Banco de Dados:</u></strong> Os servidores interagem com bancos de dados para armazenar e recuperar dados conforme necessário pelas aplicações web.</li>
+    </ul>
+    <ul>
+        <li><strong><u>Execução de Código do Lado do Servidor:</u></strong> Linguagens de programação como <mark>PHP, Python, Ruby, Java e .NET</mark> são usadas para escrever a lógica que roda nos servidores.</li>
+    </ul>
+    
+    <ul>
+        <li><strong><u>Segurança:</u></strong> Os servidores implementam medidas de segurança para proteger os dados e garantir que apenas usuários autorizados possam acessar informações sensíveis.</li>
+    </ul>
+    <p><strong><i><blockquote>Os desenvolvedores back-end trabalham com servidores para criar a parte da aplicação que não é visível para os usuários finais, mas que é essencial para o funcionamento das aplicações web.</i></strong></blockquote></p>    
+    <h2 id="o-que-e-html">O que é HTML?</h2>
+    <small> <a href="#inicio">(Voltar)</a></small>
+    <p><strong>HTML</strong>, que significa Linguagem de Marcação de Hipertexto (do inglês <strong><i>HyperText Markup Language</i></strong>), é a linguagem padrão para a criação e estruturação de páginas na web. Ela é usada para definir a estrutura do conteúdo de uma página, como textos, imagens, links e outros elementos, através de um conjunto de tags que são interpretadas pelos navegadores para exibir o conteúdo aos usuários.</p>
+    <h2 id="estrutura-basica-html">Como é uma estrutura básica de um HTML?
+    </h2>
+    <small> <a href="#inicio">(Voltar)</a></small>
+    <p>As estruturas básicas do <i><abbr title="Hyper Text Markup Language">HTML</abbr></i> são fundamentais para a criação de páginas web e cada uma tem uma função específica para organizar e exibir o conteúdo. Aqui estão as principais:
+    </p>
+    <ul>
+        <li><strong><u>&lt;!DOCTYPE html&gt;:</u></strong> É a raiz de qualquer documento HTML<sub>5</sub>, englobando todo o conteúdo da página.</li>
+    </ul>
+    <ul>
+        <li><strong><u>&lt;html&gt;:</u></strong> Define o tipo de documento e a versão do <abbr title="Hyper Text Markup Language">HTML</abbr>, instruindo o navegador a usar o padrão HTML<sup>5</sup>.</li>
+    </ul>
+    <ul>
+        <li><strong><u>&lt;head&gt;:</u></strong> Contém metadados, que são informações sobre o documento que não são exibidas diretamente na página, como o título da página, links para folhas de estilo, scripts e outras configurações.</li>
+    </ul>
+    <ul>
+        <li><strong><u>&lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, &lt;section&gt;:</u></strong> Contém metadados, que são informações sobre o documento que não são exibidas diretamente na página, como o título da página, links para folhas de estilo, scripts e outras configurações.</li>
+    </ul>
+    <ul>
+        <li><strong><u>&lt;p&gt;:</u></strong> Define um parágrafo, que é um bloco de texto.</li>
+    </ul>
+    <ul>
+        <li><strong><u>&lt;h1&gt; a &lt;h6&gt;:</u></strong> São cabeçalhos de diferentes níveis, usados para estruturar e hierarquizar o conteúdo textual.</li>
+    </ul>
+    <ul>
+        <li><strong><u>&lt;a&gt;:</u></strong> Define um hiperlink, que pode ser usado para linkar para outra página ou recurso.</li>
+    </ul>
+    <ul>
+        <li><strong><u>&lt;img&gt;:</u></strong> Insere uma imagem na página.</li>
+    </ul>
+    <ul>
+        <li><strong><u>&lt;del&gt;:</u></strong> Representa um texto que foi excluído de um documento.</li>
+    </ul>
+    <ul>
+        <li><strong><u>&lt;abbr&gt;:</u></strong> Representa uma abreviação ou acrônimo e opcionalmente fornece uma descrição completa.</li>
+    </ul>
+    <ul>
+        <li><del><strong><u>&lt;font&gt;:</u></strong> Esta tag era usada para definir o estilo do texto, como tipo de fonte, tamanho e cor.</del> <mark style="background-color: red">No entanto, ela é considerada obsoleta e não é recomendada em <abbr title="Hyper Text Markup Language">HTML</abbr> moderno.</mark> Em vez disso, o <abbr title="Cascading Style Sheets">CSS</abbr> é usado para estilizar o texto.</li>
+    </ul>
+    <h2 id="ordenadas-não-ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>As listas em <i><abbr title="Hyper Text Markup Language">HTML</abbr></i>são usadas para organizar itens em uma página web e existem dois tipos principais: listas não ordenadas e listas ordenadas.</p>
+    <ul>
+        <li><strong><u>Listas Não Ordenadas (&lt;ul&gt;):</u> </strong>São usadas para listar itens sem uma ordem específica. Cada item da lista é marcado com um ponto, círculo ou quadrado, que é o marcador padrão, mas pode ser personalizado com <abbr title="Cascading Style Sheets">CSS</abbr>. A tag &lt;ul&gt; é usada para definir a lista e a tag &lt;li&gt; para cada item da lista. Exemplo:</li>
+        <ul>
+            <li>
+                Item 1
+            </li>
+        </ul>           
+        <ul>
+            <li>
+                Item 2
+            </li>
+        </ul>           
+        <ul>
+            <li>
+                Item 3
+            </li>
+        </ul>           
+    </ul>
+    <ol>
+        <li><strong><u>Listas Ordenadas (&lt;ol&gt;):</u> </strong>São usadas quando a ordem dos itens é importante, como em uma lista de passos ou classificação. Os itens são numerados automaticamente pelo navegador. A tag &lt;ol&gt; é usada para definir a lista e a tag &lt;li&gt; para cada item da lista. Exemplo:</li>
+        <ol>
+            <li>Primeiro Passo</li>
+            <li>Segundo Passo</li>
+            <li>Terceiro Passo</li>
+        </ol> 
+    </ol>
+    <p><strong><i>Portanto, a principal diferença entre as duas é a presença ou ausência de uma ordem definida nos itens listados.</i></strong></p> 
+    <h2 id="links-de-referencias">Links de referências</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Para mais informções acessem os links abaixo:</p>
+    <ul>
+        <li><a href="http://dio.me" target="_blank">http://dio.me</a></li>
+        <li><a href="http://w3c.org" target="_blank">http://w3c.org</a></li>
+    </ul>    
+
+</body>
+</html>
